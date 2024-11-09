@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Activity 3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <link rel="icon" type="image/x-icon" href="Logo_last.png">
+  
+  <style>
+    .activity {
+      width: 100%;
+      height: auto;
+      background-color: rgb(156, 225, 247);
+      display: flex;
+      justify-content: center;
+      padding-top: 25px;
+    }
+    .activity p {
+      font-size: 18px;
+    }
+    #img-area {
+      width: 40%;
+    }
+    #content-area {
+      width: 60%;
+    }
+    #heading {
+      font-family: Harrington;
+      font-size: 40px;
+      font-weight: bolder;
+      color: maroon;
+    }
+    table, th, td {
+      border: 2px solid black;
+      padding: 12px;
+      font-size: 20px;
+
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <audio id="cheers">
+    <source src="cheers.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="points" src="Points.mp3"></audio>
+  <audio id="fail" src="fail.mp3"></audio>
+
+  <div class="header" style="width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0); padding-bottom:10px;">
+    <img src="Logo.png" width="5%" style="float:left; margin-top:25px;" class="img-responsive">
+    <span><img src="header.png" width="30%" height="auto" class="img-responsive"></span>
+  </div>
+  
+  <br>
+  
+  <center>
+    <h1 id="heading">What Did I Learn ?</h1>
+</center>
+<br>
+<div class="container" style="font-size: 22px;">
+  <!-- Complete Sentences Section -->
+  <p style="font-size: 23px; color: #038408;">
+      👉 <b>Complete Sentences:</b> A complete sentence expresses a full thought. It has a subject (who or what the sentence is about) and a predicate (what the subject is or does).
+  </p>
+  <p style="font-size: 23px; color: #333;"><u>Example</u>: 
+      <ul style="list-style-type: none;">
+          <li>"Pets bring joy to our lives."</li>
+      </ul>
+      <i style="color: #555;">Subject: Pets</i> <br>
+      <i style="color: #555;">Predicate: bring joy to our lives</i>
+  </p>
+  <hr style="border-color: #4CAF50;">
+
+  <!-- Fragments Section -->
+  <p style="font-size: 23px; color: #FF5722;">
+      👉 <b>Fragments:</b> A fragment is an incomplete sentence. It's missing either a subject, a predicate, or both. 
+  </p>
+  <p style="font-size: 23px; color: #333;"><u>Example Fragment</u>: 
+      <ul style="list-style-type: none;">
+          <li>"Running in the park."</li>
+      </ul>
+      <i style="color: #555;">This is missing a subject. Who is running in the park?</i>
+  </p>
+  <p style="font-size: 23px; color: #333;"><u>Fixed:</u> 
+      <ul style="list-style-type: none;">
+          <li>"The dog is running in the park."</li>
+      </ul>
+      <i style="color: #555;">Adding a subject makes the sentence complete.</i>
+  </p>
+  <hr style="border-color: #FF5722;">
+
+  <!-- Run-ons Section -->
+  <p style="font-size: 23px; color: #2196F3;">
+      👉 <b>Run-ons:</b> A run-on sentence happens when two or more complete sentences are incorrectly joined without proper punctuation or connecting words.
+  </p>
+  <p style="font-size: 23px; color: #333;"><u>Example Run-on</u>: 
+      <ul style="list-style-type: none;">
+          <li>"Cats are independent they don't need walks dogs need daily exercise they love going to the park."</li>
+      </ul>
+      <i style="color: #555;">This is a run-on because there is no punctuation or connecting words to separate the ideas.</i>
+  </p>
+  <p style="font-size: 23px; color: #333;"><u>Fixed:</u> 
+      <ul style="list-style-type: none;">
+          <li>"Cats are independent; they don't need walks. Dogs need daily exercise, and they love going to the park."</li>
+      </ul>
+      <i style="color: #555;">We added punctuation and conjunctions to correctly join the sentences.</i>
+  </p>
+  <hr style="border-color: #2196F3;">
+
+  <br>
+  <!-- Words Learned Section -->
+  <p style="font-size: 23px; color: #9C27B0;">
+      <b>Words that I learnt from the story:</b>
+  </p>
+  <ul style="font-size: 23px; text-align: left; color: #333;">
+      <li><b>Companionship:</b> Being with someone in a friendly way; spending time together and not feeling alone. 
+          <br><u>Sentence:</u> The dog gave me great companionship when I was feeling lonely. 🐕</li> <br>
+      <li><b>Beneficial:</b> Something that is helpful or good for you.
+          <br><u>Sentence:</u> Eating healthy foods is beneficial to your body because it keeps you strong. 🥦</li> <br>
+      <li><b>Relies:</b> To depend on someone or something for help or support. 
+          <br><u>Sentence:</u> My little sister relies on me to help her with her homework every day. 📚</li>
+  </ul>
+
+  <br>
+  <br>
+  <!-- Fun Time Button Section -->
+  <div style="text-align: center;">
+      <a href="fun_time.html" class="btn btn-primary mb-5 btn-lg text-center" style="height: 50px; width: 200px; font-size: 22px; text-align: center; background-color: #FF9800; border-color: #FF9800;">Fun Time 🎉</a>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
